@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* color: #fffdfa; */
+/* background-color: #004733; */
+/* font-family: "Roboto", sans-serif; */
+.mainquestioncontainer {
+	margin-top: 30px;
+	margin-bottom: 50px;
+	/* display: flex; */
+	justify-content: space-between;
+	align-items: center;
+	padding-inline: 30px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 40px;
+	max-width: 1200px;
+	margin-inline: auto;
+}
+.secondquestioncontainer {
+	display: flex;
+	justify-content: space-between;
+    gap: 10px;
+}
+.honeonehandmainh {
+	font-size: 48px;
+	color: rgb(41, 43, 41);
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+}
+.samehitohhaiyesari {
+	color: #292b29;
+	font-size: 16px;
+	font-weight: 700;
+	cursor: pointer;
+	padding: 12px 24px 12px 24px;
+	border: 1px solid #c7c9c5;
+	border-radius: 30px;
+    /* height: 48px; */
+}
+.samehitohhaiyesari:hover {
+	border: 1px solid rgb(1, 120, 72);
+	color: rgb(1, 120, 72);
+}
+
+@media (max-width:1000px) {
+    .mainquestioncontainer{
+        grid-template-columns: 1fr;
+    }
+}

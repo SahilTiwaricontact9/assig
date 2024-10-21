@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+header{
+    background-color: #004733;
+    height: 88px;
+   
+}
+.firstrightdiv {
+	height: 46px;
+	width: 46px;
+	padding: 14px;
+	color: #fffdfa;
+    background-color: #004733;
+    border: 1px solid #fffdfa;
+    
+    border-radius: 100%;
+}
+
+
+.headerredaeh {
+	background-color: #004733;
+	color: #fffdfa;
+}
+.better{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    /* line-height: 24; */
+}
+.mainheadercontainer{
+    display: flex;
+    justify-content: space-between;
+    padding:20px 40px 10px 40px;
+    align-items: center;
+    max-width: 1200px;
+    margin-inline: auto;
+}
+.secondrightcontainer{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.signinin{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.mythirddiv{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #292B29;
+}
+.secondrightdiv{
+    border-radius: 30px;
+    padding: 12px 24px 12px 24px;
+    cursor: pointer;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+.secondrightdiv:hover{
+    background-color: #fffdfa;
+    color: #292B29;
+}
+
+.thirdrightdiv{
+    padding: 12px 24px 12px 24px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #1EE07F;
+    border-radius: 30px;
+}
+
+@media (max-width:550px) {
+    .secondrightdiv{
+        display: none;
+    }
+    .secondrightcontainer{
+        gap: 20px;
+    }
+    .mainheadercontainer{
+        padding-inline: 10px;
+    }
+    .thirdrightdiv{
+        height: 30px;
+    }
+    .firstrightdiv {
+        height: 30px;
+        padding: 7px;
+        width: 30px;
+    }
+}

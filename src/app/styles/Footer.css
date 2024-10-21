@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* color: #fffdfa; */
+/* background-color: #004733; */
+/* font-family: "Roboto", sans-serif; */
+
+.footericon {
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	color: #007849;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+.footerhaiye {
+	padding-top: 50px;
+	padding-inline: 30px;
+	max-width: 1200px;
+	margin-inline: auto;
+}
+.samysamy {
+	font-size: 20px;
+	font-weight: 600;
+	color: #007849;
+	font-family: "Roboto", sans-serif;
+}
+.woltageoltage {
+	font-size: 16px;
+	font-weight: 400;
+	color: #a4a8a4;
+}
+.raparoraro {
+	font-size: 14px;
+	font-weight: 400;
+	color: rgb(41, 43, 41);
+}
+.fdsfkdjf {
+	font-size: 18px;
+	font-weight: 700;
+	color: rgb(41, 43, 41);
+	margin-bottom: 20px;
+}
+.ytititt {
+	font-size: 16px;
+	font-weight: 400;
+	color: rgb(41, 43, 41);
+}
+.ytititt{
+    font-size: 16px;
+	font-weight: 400;
+	color: rgb(41, 43, 41);
+}
+.emojiesfdfd{
+    font-size: 12px;
+	font-weight: 400;
+	color: rgb(41, 43, 41);
+    margin-bottom: 20px;
+}
+.hosebouse{
+    color: #a4a8a4;
+}
+.firstfootercontainer{
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+.firstsliceoffooter{
+	display: grid;
+    gap: 30px;
+}
+.flunctuaton{
+	display: grid;
+	gap: 20px;
+}
+.halkahalka{
+	display: flex;
+	gap: 20px;
+}
+.secondfootercontainer{
+	padding-top: 30px;
+	/* padding-bottom: 30px; */
+}
+.logoconainer{
+
+}
+.smallsmalltextcontainer{
+	display: grid;
+    gap: 12px;
+}
+.nommocdiv{
+	display: grid;
+	gap: 10px;
+}
+
+@media (max-width:600px) {
+	.firstfootercontainer{
+		grid-template-columns: 1fr;
+		gap: 18px;
+	}
+}

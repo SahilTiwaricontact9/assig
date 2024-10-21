@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* color: #fffdfa; */
+/* background-color: #004733; */
+/* font-family: "Roboto", sans-serif; */
+
+.firsthomepagecontainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+.mainhomepagecontainer {
+	padding-top: 40px;
+	background-color: #004733;
+    margin-bottom: 80px;
+	max-width: 1200px;
+	margin-inline: auto;
+}
+.ogocontainer {
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	background-color: #fffdfa;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.thisishone {
+	color: #fffdfa;
+	font-size: 32px;
+    font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	text-align: centere;
+}
+.badabadacontainer {
+	color: #fffdfa;
+    font-family: "Roboto", sans-serif;
+	font-size: 118px;
+	font-weight: 700;
+	text-align: center;
+}
+.secondhomepagecontainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-inline: 50px;
+	text-align: center;
+	padding-top: 50px;
+}
+.littlechildone {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.approvalmybutton{
+    margin-bottom: 20px;
+}
+.firstgoogleandstarts{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.startrating{
+    color: #fffdfa;
+    font-size: 14px;
+    font-weight: 400; 
+    font-family: "Roboto", sans-serif;
+}
+.fds{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.waha{
+   color: #fffdfa;
+   font-size: 14px;
+   font-weight: 400; 
+   font-family: "Roboto", sans-serif;
+}
+.startmyarpoval {
+	background-color: #1ee07f;
+	color: #292b29;
+	padding: 20px 48px 20px 48px;
+	border-radius: 30px;
+	width: fit-content;
+	font-size: 16px;
+	font-weight: 700;
+	cursor: pointer;
+}
+.startmyarpoval:hover {
+	color: rgb(255, 255, 255);
+	background-color: #004733;
+}
+.thirdhomepagecontainer {
+	display: grid;
+    align-items: center;
+	grid-template-columns: repeat(3, 1fr);
+	padding-top: 50px;
+}
+.littlechildthree{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.littlechildtwo{
+    display: flex;
+    align-items: center;
+}
+.handyimage {
+	width: 100%;
+	height: 100%;
+}
+
+/* 1EE07F */
+@media (max-width: 550px) {
+	.badabadacontainer {
+		font-size: 50px;
+	}
+	.secondhomepagecontainer {
+		padding-inline: 10px;
+		padding-bottom: 40px;
+	}
+	.thirdhomepagecontainer{
+		grid-template-columns: 1fr;
+		gap: 30px;
+		padding-bottom: 30px;
+	}
+}

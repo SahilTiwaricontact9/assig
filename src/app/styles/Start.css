@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* color: #fffdfa; */
+/* background-color: #004733; */
+/* font-family: "Roboto", sans-serif; */
+
+
+.honecontainer{
+    background-color: #CCE9D3;
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.numbervumber{
+    font-size: 16px;
+    font-weight: 700;
+    color: 
+    rgb(41, 43, 41);
+    font-family: "Roboto", sans-serif;
+}
+/* 007849 */
+.mainlogohaibhaiii{
+    font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	color: #007849;
+	font-size: 24px;
+}
+/* 6F7672 */
+
+.mortagevortage{
+    color: #6F7672;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.firstheaderstartcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.mainstartcontainer{
+    padding-inline: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.coyafhoa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.mylinemine{
+    height: 4px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #E9EBE6;
+}
+.realmyiamge{
+    height: 48px;
+    width: 48px;
+    border-radius: 100%;
+    position: absolute;
+    top: -18px;
+    left: 48%;
+
+}
+/* .photoimage{
+    position: absolute;
+    top: -18px;
+    left: 50%;
+} */
+ .howerrei{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    color: rgb(41, 43, 41);
+ }
+ 
+ .realthirdcontainetmain{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+ }
+ .allsamehaibuttons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border: 1px solid #292B29;
+    border-radius: 16px;
+    padding: 0px 24px 0px 24px;
+    height: 64px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+
+ }
+ .allsamehaibuttons:hover .howerrei{
+    color: rgb(1, 120, 72);
+ }
+/* rgb(1, 120, 72) */
+.lineandphotomain{
+    position: relative;
+}
+.numberindollarandk{
+    display: flex;
+    justify-content: space-between;
+}
+.numberwunder{
+    font-size: 32px;
+    font-weight: 700;
+    color: 
+    rgb(41, 43, 41);
+    font-family: "Roboto", sans-serif;
+    margin-top: 40px;
+    margin-bottom: 15px;
+
+}
+.seriouspara{
+    font-size: 14px;
+    font-weight: 400;
+    color: 
+    
+rgb(86, 93, 90);
+    font-family: "Roboto", sans-serif;
+}
+.dollarswala{
+    text-align: center;
+}
+.thisisosmemytext{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(41, 43, 41);
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+.fourthdivofmycontianerzz{
+    background-color: #F0F6F0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 16px;
+}
+.eyrierwerb{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.allfoursamypikny{
+    font-size: 16px;
+    font-weight: 400;
+    color: 
+    
+rgb(86, 93, 90);
+}
+/* F0F6F0 */
+@media (max-width:768px) {
+    .realmyiamge{
+        left: 43%;
+    }
+}
